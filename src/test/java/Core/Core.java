@@ -74,7 +74,7 @@ public class Core {
         WebElement locatedElement = null;
         try {
             WebDriverWait wait = new WebDriverWait(driver, 20);
-            locatedElement = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            locatedElement = wait.until(ExpectedConditions.presenceOfElementLocated(by));
         } catch(Exception e) {
             System.out.print("Waited " + 20 + " seconds for element to be visible: " + by.toString());
         }
