@@ -3,6 +3,8 @@ AutomationScriptForBox
 
 You can use any IDE like INtelliJ or Eclipse. I have preferred IntelliJ. In My video you can see intelliJ.
 
+_**Please do not that to run this automation script, you should have installed Java and Maven in your system and you have set your Environment Variables class path as well.**_
+
 **Steps to run the testcase : **
 
 1. Either you can download from githhub directly or you can clone using Github desktiop application.
